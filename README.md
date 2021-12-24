@@ -4,9 +4,9 @@ The AWS Lambda Serverless Blind XSS App
 利用VPS配置XSS平台太麻烦了，如果利用AWS的Lambda那不就是一个域名的事情么？剩下的环境配置、HTTPS证书、隐私性、VPS续费都不用管了，
 所以根据[xless](https://github.com/mazen160/xless)重写了Lambda平台的XSS，利用slack机器人通知的方式代替邮件或者短信
 
-XSS有四个URL可用：
+XSS有四个URL可用，部署的时候建议修改不同的地址：
 - `/msg` [OOB场景1](#OOB场景1)
-- `/404` [OOB场景1](#OOB场景2)
+- `/404` [OOB场景2](#OOB场景2)
 - `/example` 查看js插入例子
 ![example.png](./images/example.png)
 
