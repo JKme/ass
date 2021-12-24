@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple</title>
+</head>
+<body>
+    <h3>Payloads:</h3>
+    <ul>
+        {% for payload in payloads %}
+        <li><code>{{ payload }}</code></li>
+        {% endfor %}
+    </ul>
+
+   <h3>Alert(1):</h3>
+    <ul>
+        {% for alert in alerts %}
+        <li><code>{{ alert }}</code></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
