@@ -1,6 +1,8 @@
 # Ass
 The AWS Lambda Serverless Blind XSS App
 
+AWS Lambda很容易被Dow(Denial of Wallet)攻击，比如发起大量http请求消耗资源，导致信用卡暴增。所以建议在API Gateway的使用计划新增接口请求限制。
+
 利用VPS配置XSS平台太麻烦了，如果利用AWS的Lambda那不就是一个域名的事情么？剩下的环境配置、HTTPS证书、隐私性、VPS续费都不用管了，
 所以根据[xless](https://github.com/mazen160/xless)重写了Lambda平台的XSS，利用slack机器人通知的方式代替邮件或者短信
 
